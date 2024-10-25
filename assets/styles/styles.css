@@ -1,0 +1,68 @@
+body {
+  /* max-width: 1; */
+  margin-inline: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 50%;
+  min-height: 100vh;
+  /* background-color: yellow; */
+}
+.header {
+  padding: 2px;
+  min-width: 97%;
+  /* padding-left: 60%; */
+  /* margin-inline: 100px; */
+  /* justify-content: center; */
+  text-align: center;
+  /* background-color: yellow; */
+  background-color: #d9d9d9;
+}
+.header h1 {
+  color: cyan;
+}
+
+.details {
+  padding-left: 60%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  display: flex;
+  gap: 3.5%;
+  padding: 10px;
+}
+
+/* ------------------------------------------------------------Headings -------------------------------------------------------------------*/
+
+.heading {
+  color: rgb(8, 125, 8);
+  font-size: 12px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-image: linear-gradient(to top left, cyan, grey); */
+  width: 950px;
+  min-width: 950px;
+  /* margin-right: 1000px; */
+  /* margin-inline: 100px; */
+  background-color: #d9d9d9;
+}
+.paragraph {
+  font-size: 11px;
+}
+ul {
+  font-size: 11px;
+}
+
+/* Skills formats */
+.blue {
+  color: blue;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  padding: 30px;
+}
+
+.skills li {
+  display: flex;
+}
