@@ -35,8 +35,9 @@ main {
 .details {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 14px;
   font-size: 0.85em;
+  flex-wrap: wrap;
 }
 
 .details nav,
