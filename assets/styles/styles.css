@@ -41,7 +41,6 @@ main {
 
 .details nav,
 .details a {
-  color: #333;
   text-decoration: none;
 }
 
@@ -73,7 +72,7 @@ ul {
 }
 
 .blue {
-  color: blue;
+  /* color: blue; */
   font-weight: bold;
 }
 
