@@ -50,14 +50,20 @@ main {
   font-size: 1.1em;
   margin-bottom: 10px;
 }
-
-/* Grid layout for skills section */
+/* arranging skills */
 .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 15px;
+  grid-template-areas:
+    "headings skills skills"
+    "headings skills skills"
+    "headings skills skills";
 }
-
+.black {
+  grid-area: headings;
+}
+.paragraph {
+  grid-area: skills;
+}
 /* Text formatting */
 .paragraph {
   font-size: 1em;
@@ -65,13 +71,13 @@ main {
 }
 
 /* Styling specific items in lists */
-ul {
+section ul {
   font-size: 0.95em;
   list-style-type: disc;
   margin-left: 1.5em;
 }
 
-.blue {
+.black {
   /* color: blue; */
   font-weight: bold;
 }
