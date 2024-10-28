@@ -21,13 +21,12 @@ main {
 
 /* Header section styling */
 .header {
-  background-color: #d9d9d9;
   padding: 10px;
   text-align: center;
 }
 
 .header h1 {
-  color: cyan;
+  color: black;
   font-size: 2em;
 }
 
